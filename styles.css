@@ -1,69 +1,74 @@
 /* styles.css */
 body {
-    font-family: 'Comic Sans MS', cursive;
-    background-color: #ff00ff; /* Fond rose vif */
-    color: #ffff00; /* Texte jaune vif */
-    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 h1 {
-    font-family: 'Papyrus', cursive;
-    color: #0000ff; /* Texte bleu vif */
-    text-decoration: underline;
-    text-align: center;
+    font-size: 2.5em;
 }
 
-a {
-    color: #008000; /* Texte vert vif */
-    text-decoration: none;
-    border: 2px solid #ff0000; /* Bordure rouge vif */
-    border-radius: 5px;
-    padding: 5px;
+p {
+    font-size: 1.2em;
 }
 
-a:hover {
-    color: #ff0000; /* Texte rouge vif au survol */
-    text-decoration: underline;
-}
-
-.FormatText {
-    font-family: 'Comic Sans MS', cursive;
-    color: #ff00ff; /* Texte rose vif */
-    background-color: #ffff00; /* Fond jaune vif */
-    text-transform: uppercase;
-    text-decoration: line-through;
-    border: 2px dashed #000;
-    padding: 10px;
-    border-radius: 10px;
-    transform: rotate(15deg);
-    filter: blur(2px);
-}
-
-.container {
-    background-color: #ff00ff; /* Fond rose vif */
-    border: 5px double #ffff00; /* Bordure double jaune vif */
+main {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    margin: 10px;
 }
 
 .content {
-    background-color: #ffff00; /* Fond jaune vif */
-    border: 3px solid #ff0000; /* Bordure rouge vif */
-    border-radius: 10px;
-    padding: 15px;
-    margin: 10px 0;
-    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
 }
 
-.navigation {
-    display: flex;
-    justify-content: center;
+section.content h2 {
+    font-size: 1.5em;
+    color: #0077cc;
+    margin-bottom: 10px;
 }
 
-.navigation a {
-    margin: 0 20px;
-    color: #ff00ff; /* Texte rose vif */
+a {
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff6347;
     text-decoration: underline;
 }
 
-/* Ajoutez d'autres styles moches au besoin pour des éléments spécifiques */
+button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
